@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown in Forms</title>
+</head>
+<body>
+    <form action="/server">
+<div>
+    <h5>Choose Your Profession: </h5>
+    <select name="Profession" id="Profession">
+        <option >Select Your Profession</option>
+        <option value="Police">Police</option>
+        <option value="Professor">Professor</option>
+        <option value="Doctor">Doctor</option>
+
+
+    </select>
+</div>
+<div>
+    <!-- Range Element -->
+     <label for="vol"> Select Volume Level</label>
+     <input type="range" min="0" max="100" name="vol" id="vol" value="60" step="10">
+</div>
+<button type="submit">Submit</button>
+    </form>
+</body>
+</html>
